@@ -26,7 +26,7 @@ define('APP_PATH', __DIR__ . '/application/');
 define('ADMIN_FILE', 'admin.php');
 
 // 检查是否安装
-if(!is_file('../data/install.lock')){
+if(!is_file('./data/install.lock')){
     define('BIND_MODULE', 'install');
 }
 
